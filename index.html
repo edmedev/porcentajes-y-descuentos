@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Figuras Geométricas</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header-container">
+        <div class="header-container-logo">
+            <img src="./imgs/icon.png" alt="Icon of the website" />
+            <h2>Porcentajes y descuentos</h2>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="title-main">Calcula el precio a pagar de tus productos con descuento.</h2>
+            <form>
+                <label for="InputPrice">Escribe el precio de tu producto:</label>
+                <input id="InputPrice" type="number" placeholder="Precio del producto" />
+                <br>
+                <label for="InputDiscount">Escribe el descuento de tu producto:</label>
+                <input id="InputDiscount" type="number" placeholder="Porcentaje del descuento" />
+                <br>
+                <button id="main-container-button" type="button" onclick="onClickButtonPriceDiscount()">
+                    Calcular el precio con descuento
+                </button>
+                <p id="ResultP"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-container-logo">
+            <img src="./imgs/icon.png" alt="Icon of the website" />
+            <h2>Porcentajes y descuentos</h2>
+        </div>
+        <h2>Sitio web desarrollado por: <a href="https://github.com/eduardommv">Eduardo Mendez</a></h2>
+    </footer>
+
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
